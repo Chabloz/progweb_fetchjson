@@ -4,7 +4,13 @@ Base du TP, avec Vite, le HTML, la CSS et les fonctions de manipulation du DOM.
 
 ## Démarrer
 
+Sur [GitHub](https://github.com/Chabloz/progweb_fetchjson), cliquez sur **Use this template → Create a new repository** pour créer votre propre dépôt.
+
+Clonez ensuite votre dépôt en remplaçant `VOTRE-COMPTE` et `VOTRE-DEPOT` par votre compte GitHub et le nom choisi :
+
 ```sh
+git clone https://github.com/VOTRE-COMPTE/VOTRE-DEPOT.git
+cd VOTRE-DEPOT
 npm install
 npm run dev
 ```
