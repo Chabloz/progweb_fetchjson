@@ -174,7 +174,7 @@ h3 { margin: 0 0 0.625rem; font-size: 0.9375rem; font-weight: 600; }
 .planet-details { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin: 0; }
 .planet-details dt { margin-bottom: 0.125rem; color: var(--muted); font-size: 0.75rem; }
 .planet-details dd { margin: 0; font-size: 0.875rem; overflow-wrap: anywhere; }
-.ph-planet-diameter { font-variant-numeric: tabular-nums; }
+.planet-diameter { font-variant-numeric: tabular-nums; }
 
 .fetch-loader {
   position: fixed;

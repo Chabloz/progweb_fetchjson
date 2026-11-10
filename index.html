@@ -28,11 +28,11 @@
     </main>
 
     <template id="movie-template">
-      <article class="movie tmpl-movie">
+      <article class="movie">
         <header class="movie-header">
           <div class="movie-title">
-            <p class="episode">Épisode <span class="ph-movie-episode_id"></span></p>
-            <h2 class="ph-movie-title"></h2>
+            <p class="episode">Épisode <span class="movie-episode"></span></p>
+            <h2 class="movie-name"></h2>
           </div>
           <button type="button" class="btn-planets">Planètes</button>
         </header>
@@ -41,16 +41,16 @@
     </template>
 
     <template id="planet-template">
-      <li class="planet tmpl-planet">
-        <h3 class="ph-planet-name"></h3>
+      <li class="planet">
+        <h3 class="planet-name"></h3>
         <dl class="planet-details">
           <div>
             <dt>Climat</dt>
-            <dd class="ph-planet-climate"></dd>
+            <dd class="planet-climate"></dd>
           </div>
           <div>
             <dt>Diamètre</dt>
-            <dd><span class="ph-planet-diameter"></span> km</dd>
+            <dd><span class="planet-diameter"></span> km</dd>
           </div>
         </dl>
       </li>
